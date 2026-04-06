@@ -88,12 +88,15 @@ Seedvault can be translated with Weblate, as provided by [CalyxOS](https://hoste
 > Please be aware that disclosing your secret recovery key to other software has security risks.
 
 The [Seedvault backup parser](https://github.com/tlambertz/seedvault_backup_parser)
-allows you to decrypt and inspect your backups (version 0 backup).
+allows you to decrypt and inspect old (version 0) app backups.
 It can also re-encrypt them.
 
 The [Seedvault extractor](https://github.com/jackwilsdon/seedvault-extractor)
-allows you to decrypt and inspect your backups from newer versions of Seedvault (version 1 backup).
-It is currently work-in-progress.
+allows you to decrypt and inspect newer (version 1) app backups.
+Note that the current version of app backups is 2, so it cannot inspect the newest ones.
+
+[seedvault-mount](https://codeberg.org/lialenck/seedvault-mount)
+allows you to decrypt and inspect current file backups (version 0 file backups).
 
 ## License
 This application is available as open source under the terms
